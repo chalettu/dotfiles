@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -x "$(command -v infisical)" ]; then
+    if [[ "$*" == *"local"* ]]
+    then
+        echo "Running in local mode"
+        eval "$@"
+    else
+        infisical run -- "$@"
+    fi
+else
+    echo "Infisical not installed"
+fi
