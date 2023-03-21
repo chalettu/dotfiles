@@ -1,0 +1,4 @@
+alias ll='ls -altrTG'
+alias grep='grep --color'
+alias findps='ps -ax | grep'
+alias tree='tree -Ch'
