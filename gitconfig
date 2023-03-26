@@ -1,0 +1,10 @@
+[user]
+	email = txninja@gmail.com
+	name = Chris Hale
+	signingKey = ""
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false
