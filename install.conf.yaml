@@ -7,4 +7,10 @@
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
 
+- crossplatform-shell:
+  -  description: Install Mac based apps
+     stdout: true
+     platform: darwin
+     command: |
+      echo "Installing Mac.  Blerg"
 
